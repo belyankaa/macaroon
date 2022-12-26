@@ -92,6 +92,7 @@
 }
 
 .introduction__title {
+    font-weight: normal;
     font-size: 55px;
     font-family: Tavolga, sans-serif;
     color: rgb(255, 255, 255);
@@ -204,6 +205,7 @@
     color: rgb(51, 25, 7);
     line-height: 1.222;
     max-width: 475px;
+    font-weight: normal;
     margin-bottom: 60px;
 }
 
@@ -265,6 +267,7 @@
 
 .choice__title {
     font-size: 45px;
+    font-weight: normal;
     font-family: Tavolga, sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -294,6 +297,8 @@
 .choice__item-image {
     position: absolute;
     top: -57px;
+    width: 200px;
+    text-align: center;
     left: calc(50% - 100px);
 }
 
@@ -329,6 +334,7 @@
     width: 130px;
     height: 50px;
     margin-left: 36px;
+    font-size: 16px;
 }
 
 .item-inf__col {
@@ -369,6 +375,7 @@
     font-family: Tavolga, sans-serif;
     color: rgb(51, 25, 7);
     margin-bottom: 41px;
+    font-weight: normal;
 }
 
 .order__form {
@@ -405,7 +412,8 @@
     font-size: 15px;
     font-family: Gilroy-bold, sans-serif;
     color: rgb(51, 6, 13);
-    padding-left: 26px;
+    padding: 0 26px;
+    background-color: #ffefef;
     box-sizing: border-box;
 }
 
@@ -479,6 +487,7 @@
 }
 
 .present__circle__image {
+    transition: all .5s;
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -517,7 +526,6 @@
     padding: 10px 0;
     box-sizing: border-box;
     transition: all .5s;
-
 }
 
 .table__addition_triengle-light {

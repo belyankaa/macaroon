@@ -1,13 +1,52 @@
+@media screen and (max-width: 1380px) {
+    .present__circle__image {
+        bottom: 10px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .present__circle__image svg {
+        width: 47px;
+        height: 41px;
+    }
+
+    .present__circle__table {
+        bottom: -35px;
+        right: 146px;
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 1230px) {
     .container {
-        margin: 0;
         padding: 0 20px;
     }
 }
 
+@media screen and (max-width: 1179px) {
+    .choice__products {
+        grid-template-columns: repeat(2, 263px);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .order__form {
+        margin-left: 70px;
+    }
+}
+
 @media screen and (max-width: 1023px) {
-    .present {
-        display: none;
+
+    .container {
+        max-width: 728px;
+    }
+
+    .header__container {
+        max-width: 1023px;
+    }
+
+    .footer__container {
+        max-width: 1023px;
     }
 
     .history__main-image {
@@ -17,9 +56,7 @@
     .history__main-image-img {
         max-width: 100%;
     }
-}
 
-@media screen and (max-width: 900px) {
     .introduction {
         padding: 143px 0 0 0;
     }
@@ -125,9 +162,7 @@
         bottom: unset;
         top: 70px;
     }
-}
 
-@media screen and (max-width: 795px) {
     .header__container {
         justify-content: unset;
     }
@@ -148,6 +183,14 @@
 }
 
 @media screen and (max-width: 750px) {
+    .order__strawberry_big {
+        width: 65px;
+    }
+
+    .order__strawberry_big img {
+        max-width: 100%;
+    }
+
     .introduction__container {
         justify-content: center;
         text-align: center;
@@ -155,8 +198,10 @@
 
     .introduction__image {
         margin: 38px 0 43px 0;
-        position: unset;
+        position: relative;
         max-width: 400px;
+        top: 0;
+        left: 0;
     }
 
     .intro__maroon {
@@ -169,13 +214,13 @@
     }
 
     .crug1 {
-        top: 760px;
+        top: calc(50% - 100px);
         width: 200px;
         height: 200px;
     }
 
     .crug2 {
-        top: 760px;
+        top: calc(50% - 100px);
         width: 200px;
         height: 200px;
     }
@@ -185,18 +230,6 @@
     .order__container {
         max-width: 400px;
         margin: 0 auto;
-    }
-
-    .crug1 {
-        top: 780px;
-        width: 190px;
-        height: 190px;
-    }
-
-    .crug2 {
-        top: 780px;
-        width: 190px;
-        height: 190px;
     }
 
     .order__description {
@@ -226,6 +259,10 @@
 
     .choice__products {
         grid-template-columns: 300px;
+    }
+
+    .choice__title {
+        font-size: 30px;
     }
 
     .order__image-img {
@@ -262,33 +299,7 @@
     }
 }
 
-@media screen and (max-width: 586px) {
-    .crug1 {
-        top: 866px;
-        width: 190px;
-        height: 190px;
-    }
-
-    .crug2 {
-        top: 866px;
-        width: 190px;
-        height: 190px;
-    }
-}
-
 @media screen and (max-width: 548px) {
-    .crug1 {
-        top: 700px;
-        width: 190px;
-        height: 190px;
-    }
-
-    .crug2 {
-        top: 700px;
-        width: 190px;
-        height: 190px;
-    }
-
     .close {
         display: block;
         position: fixed;
@@ -315,7 +326,7 @@
     .header__list {
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .header__list-item {
@@ -327,7 +338,7 @@
     }
 
     .header__menu.open {
-        display: block;
+        display: flex;
         justify-content: center;
     }
 
@@ -344,9 +355,6 @@
         font-size: 16px;
     }
 
-    .choice__title {
-        font-size: 30px;
-    }
 
     .order__container {
         margin-left: auto;
@@ -364,6 +372,22 @@
         text-align: center;
         grid-gap: 40px;
         position: relative;
+    }
+
+    .footer__logo {
+        order: 1;
+    }
+
+    .footer__inst {
+        order: 3;
+    }
+
+    .footer__contacts {
+        order: 2;
+    }
+
+    .footer__rights2 {
+        order: 4;
     }
 
     .link__img {
@@ -397,20 +421,6 @@
     }
 }
 
-@media screen and (max-width: 417px) {
-    .crug1 {
-        top: 760px;
-        width: 190px;
-        height: 190px;
-    }
-
-    .crug2 {
-        top: 760px;
-        width: 190px;
-        height: 190px;
-    }
-}
-
 @media screen and (max-width: 408px) {
     .order__container {
         max-width: 310px;
@@ -430,16 +440,24 @@
 }
 
 @media screen and (max-width: 360px) {
+    .present__circle__image {
+        right: 10px;
+    }
+
+    .present__circle__table {
+        right: 116px;
+    }
+
     .crug1 {
         left: calc(50% - 75px);
-        top: 760px;
+        top: calc(50% - 75px);
         width: 150px;
         height: 150px;
     }
 
     .crug2 {
         left: calc(50% - 75px);
-        top: 760px;
+        top: calc(50% - 75px);
         width: 150px;
         height: 150px;
     }
