@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/style.min.css">
+    <link rel="stylesheet" href="dist/adaptive.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -306,19 +307,25 @@
             <form action="#" method="post" class="order__form-post">
                 <div class="form__data">Ваш выбор</div>
                 <div class="form__what-order">
-                    <input type="text" placeholder="Напишите, что хотите заказать..." class="input">
+                    <input type="text" id="ordered" placeholder="Напишите, что хотите заказать..."
+                           class="input form-control">
+                    <div class="error-input">Выберите заказ</div>
                 </div>
                 <div class="form__data">Заполните данные для заказа</div>
                 <div class="form__name">
-                    <input type="text" placeholder="Ваше имя" class="input">
+                    <input type="text" placeholder="Ваше имя" id="name" class="input form-control">
+                    <div class="error-input">Введите ваше имя</div>
                 </div>
                 <div class="form__number">
-                    <input type="text" placeholder="+375 (__) ___ - __ - __" class="input">
+                    <input type="text" id="phone" placeholder="+375 (__) ___ - __ - __" class="input form-control">
+                    <div class="error-input">Заполните номер телефона</div>
                 </div>
-                <input type="submit" value="Оформить заказ" class="btn order__button">
+                <button type="button" id="submit" class="btn order__button">Оформить заказ</button>
             </form>
         </div>
-
+        <div class="thanks">
+            Спасибо за Ваш заказ. Мы скоро свяжемся с Вами!
+        </div>
         <div class="order__strawberry_small">
             <img src="images/strawberrysmall.png" alt="strawberry_small">
         </div>
@@ -386,17 +393,15 @@
     </div>
 </div>
 
-<script>
-    document.getElementById('burger').onclick = function () {
-        document.getElementById('header__menu').classList.add('open');
-    }
+<div class="loader">
+    <div class="lds-heart">
+        <div></div>
+    </div>
+</div>
 
-    document.querySelectorAll('#header__menu *').forEach((item) => {
-        item.onclick = () => {
-            document.getElementById('header__menu').classList.remove('open')
-        }
-    })
-</script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/jquery-3.6.3.min.js"></script>
+<script src="scripts/script.js"></script>
 
 </body>
 </html>
