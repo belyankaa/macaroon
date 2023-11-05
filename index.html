@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/style.min.css">
+    <link rel="stylesheet" href="dist/adaptive.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__container">
+        <div class="logo">
+            <img src="images/logo.png" alt="logotip">
+        </div>
+        <nav class="header__menu" id="header__menu">
+            <div class="close">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                    <g>
+	                <g>
+		            <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	                </g>
+                    </g>
+                </svg>
+            </div>
+            <ul class="header__list">
+                <li class="header__list-item">
+                    <a href="#choice" class="header__list-link">Пироженки</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#history" class="header__list-link">О нас</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#order" class="header__list-link">Оформить заказ</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contacts header__contacts">
+            +375 (29) 368-98-68
+        </div>
+        <div class="burger" id="burger">
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="40px" height="22px">
+                <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                      d="M0.000,22.000 L0.000,20.000 L40.000,20.000 L40.000,22.000 L0.000,22.000 ZM0.000,10.000 L40.000,10.000 L40.000,12.000 L0.000,12.000 L0.000,10.000 ZM0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z"/>
+            </svg>
+        </div>
+    </div>
+</header>
+
+<section class="introduction">
+    <div class="container introduction__container">
+        <div class="introduction__description">
+            <h1 class="introduction__title">Мягкие французские пироженки Macaroons</h1>
+            <div class="introduction__description__text">
+                Побалуйте себя и своих близких самыми вкусными и ароматными домашними пироженками Macaroon!
+            </div>
+            <div class="introduction__action">
+                <button class="btn description__button">Выбрать макарун</button>
+            </div>
+        </div>
+        <div class="introduction__image">
+            <img src="images/intro.png" alt="intro-macaroon" class="intro__maroon">
+            <div class="crug1"></div>
+            <div class="crug2"></div>
+        </div>
+    </div>
+</section>
+
+<section class="history" id="history">
+    <div class="container history__container">
+        <div class="history__main-text">
+            <h2 class="history__main-text__title">Мы печём для вас вкуснейшие макаруны уже более 10 лет</h2>
+            <div class="history__main-text__content">
+                Все пироженки мы готовим только из натуральных и качественных продуктов, без консервантов,
+                ароматизаторов, красителей. Используем в приготовлении сливочное масло 82,5%, без дрожжей, маргарина,
+                разрыхлителей и улучшителей муки.
+            </div>
+        </div>
+        <div class="history__main-image">
+            <img src="images/big.png" alt="big-macaroon" class="history__main-image-img">
+        </div>
+        <div class="history__adv">
+            <div class="history__adv__count">
+                <div class="history__adv__number">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="20px" height="42px" class="number">
+                        <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="60px" x="0px"
+                              y="42px">
+                            <tspan font-size="60px" font-weight="bold" font-family="Gilroy" fill="#FFFFFF">&#49;</tspan>
+                        </text>
+                    </svg>
+                </div>
+                <div class="history__adv__text">
+                    <div class="adv__text-title">
+                        Лучшие продукты
+                    </div>
+                    <div class="adv__text-main-text">
+                        Мы честно готовим макаруны только из натуральных и качественных продуктов. Мы не используем
+                        консерванты, ароматизаторы и красители.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="history__adv">
+            <div class="history__adv__count">
+                <div class="history__adv__number">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="29px" height="43px" class="number">
+                        <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="60px" x="0px"
+                              y="43px">
+                            <tspan font-size="60px" font-weight="bold" font-family="Gilroy" fill="#FFFFFF">&#50;</tspan>
+                        </text>
+                    </svg>
+                </div>
+                <div class="history__adv__text">
+                    <div class="adv__text-title">
+                        Много вкусов
+                    </div>
+                    <div class="adv__text-main-text">
+                        Наша задача – предоставить вам широкое разнобразие вкусов. Вы удивитесь, но у нас более 70
+                        вкусов пироженок.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="history__adv">
+            <div class="history__adv__count">
+                <div class="history__adv__number">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="31px" height="43px" class="number">
+                        <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="60px" x="0px"
+                              y="42.1559999999999px">
+                            <tspan font-size="60px" font-weight="bold" font-family="Gilroy" fill="#FFFFFF">&#51;</tspan>
+                        </text>
+                    </svg>
+                </div>
+                <div class="history__adv__text">
+                    <div class="adv__text-title">
+                        Бисквитное тесто
+                    </div>
+                    <div class="adv__text-main-text">
+                        Все пирожные готовятся на бисквитном тесте с качественным сливочным маслом 82,5%. В составе нет
+                        маргарина и дрожжей!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="history__adv">
+            <div class="history__adv__count">
+                <div class="history__adv__number">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34px"
+                         height="42px" class="number">
+                        <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="60px" x="0px"
+                              y="42px">
+                            <tspan font-size="60px" font-weight="bold" font-family="Gilroy" fill="#FFFFFF">&#52;</tspan>
+                        </text>
+                    </svg>
+                </div>
+                <div class="history__adv__text">
+                    <div class="adv__text-title">
+                        Честный продукт
+                    </div>
+                    <div class="adv__text-main-text">
+                        Вкус, качество и безопасность наших пирогов подтверждена декларацией о соответствии, которую мы
+                        получили 22.06.2016 г.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="choice" id="choice">
+    <div class="container choice__container">
+        <h2 class="choice__title">Выберите свой макарун</h2>
+        <div class="choice__products">
+            <div class="choice__item">
+                <div class="choice__item-image">
+                    <img src="images/1.png" alt="choice-of-macaroon" class="item-image__img">
+                </div>
+                <div class="choice__item-else">
+                    <div class="choice__item-title">
+                        Макарун с малиной
+                    </div>
+                    <div class="choice__item-else__else">
+                        <div class="choice__item-inf">
+                            <div class="item-inf__col">
+                                1 шт.
+                            </div>
+                            <div class="item-inf__cost">
+                                1,70 руб.
+                            </div>
+                        </div>
+                        <div class="choice__item-action">
+                            <button class="btn choice__button">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="choice__item">
+                <div class="choice__item-image">
+                    <img src="images/2.png" alt="choice-of-macaroon" class="item-image__img">
+                </div>
+                <div class="choice__item-else">
+                    <div class="choice__item-title">
+                        Макарун с манго
+                    </div>
+                    <div class="choice__item-else__else">
+                        <div class="choice__item-inf">
+                            <div class="item-inf__col">
+                                1 шт.
+                            </div>
+                            <div class="item-inf__cost">
+                                1,70 руб.
+                            </div>
+                        </div>
+                        <div class="choice__item-action">
+                            <button class="btn choice__button">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="choice__item">
+                <div class="choice__item-image">
+                    <img src="images/3.png" alt="choice-of-macaroon" class="item-image__img">
+                </div>
+                <div class="choice__item-else">
+                    <div class="choice__item-title">
+                        Пирог с ванилью
+                    </div>
+                    <div class="choice__item-else__else">
+                        <div class="choice__item-inf">
+                            <div class="item-inf__col">
+                                1 шт.
+                            </div>
+                            <div class="item-inf__cost">
+                                1,70 руб.
+                            </div>
+                        </div>
+                        <div class="choice__item-action">
+                            <button class="btn choice__button">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="choice__item">
+                <div class="choice__item-image">
+                    <img src="images/4.png" alt="choice-of-macaroon" class="item-image__img">
+                </div>
+                <div class="choice__item-else">
+                    <div class="choice__item-title">
+                        Пирог с фисташками
+                    </div>
+                    <div class="choice__item-else__else">
+                        <div class="choice__item-inf">
+                            <div class="item-inf__col">
+                                1 шт.
+                            </div>
+                            <div class="item-inf__cost">
+                                1,70 руб.
+                            </div>
+                        </div>
+                        <div class="choice__item-action">
+                            <button class="btn choice__button">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order" id="order">
+    <div class="container order__container">
+        <div class="order__image">
+            <div class="order__strawberry_big">
+                <img src="images/strawberrybig.png" alt="strawberry_big">
+            </div>
+            <img src="images/order.png" alt="order-macaroon" class="order__image-img">
+        </div>
+        <div class="order__form">
+            <div class="order__attention">
+                <h2 class="order__title">Закажите макарун!</h2>
+                <div class="order__description">Выберите понравившийся макарун, заполните форму и ожидайте звонка нашего
+                    пекаря!
+                </div>
+            </div>
+            <form action="#" method="post" class="order__form-post">
+                <div class="form__data">Ваш выбор</div>
+                <div class="form__what-order">
+                    <input type="text" id="ordered" placeholder="Напишите, что хотите заказать..."
+                           class="input form-control">
+                    <div class="error-input">Выберите заказ</div>
+                </div>
+                <div class="form__data">Заполните данные для заказа</div>
+                <div class="form__name">
+                    <input type="text" placeholder="Ваше имя" id="name" class="input form-control">
+                    <div class="error-input">Введите ваше имя</div>
+                </div>
+                <div class="form__number">
+                    <input type="text" id="phone" placeholder="+375 (__) ___ - __ - __" class="input form-control">
+                    <div class="error-input">Заполните номер телефона</div>
+                </div>
+                <button type="button" id="submit" class="btn order__button">Оформить заказ</button>
+            </form>
+        </div>
+        <div class="thanks">
+            Спасибо за Ваш заказ. Мы скоро свяжемся с Вами!
+        </div>
+        <div class="order__strawberry_small">
+            <img src="images/strawberrysmall.png" alt="strawberry_small">
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="logo footer__logo">
+            <img src="images/logo.png" alt="logotip" class="footer__logo__img">
+            <div class="footer__rights rights">
+                Все права защищены, 2020
+            </div>
+        </div>
+        <div class="footer__inst">
+            <a href="" class="footer__inst__link">
+                <div class="link__img">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xmlns:svgjs="http://svgjs.com/svgjs" width="32" height="32" x="0" y="0"
+                         viewBox="0 0 511 511.9" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                         class=""><g>
+                        <path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"
+                              fill="#ffffff" data-original="#000000" class=""></path><path
+                            d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0"
+                            fill="#ffffff" data-original="#000000" class=""></path>
+                        <path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"
+                              fill="#ffffff" data-original="#000000" class=""></path>
+                    </g>
+                    </svg>
+                </div>
+                <div class="footer__inst__text">
+                    Мы в Instagram
+                </div>
+            </a>
+        </div>
+        <div class="contacts footer__contacts">
+            +375 (29) 368-98-68
+        </div>
+        <div class="footer__rights2 rights">
+            Все права защищены, 2020
+        </div>
+    </div>
+</footer>
+
+<div class="present">
+    <div class="present__circle">
+        <div class="present__circle__image">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="52"
+                 viewBox="0 0 53 52">
+                <image id="present" width="53" height="52"
+                       xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAA0CAYAAAAqunDVAAAJkUlEQVRogbVaCXCX1RH/JSQBEq6AQLiCWCPEKlqgRcUbr7YqXgXqeFTpbdW2Ix2d0XqNF0qVVi1FenhRqqJTRWUw3lKYViPYoCKkBiI0hBhEIIEI/Dov/N64Pr7rn9id+eb/fe/t27e7b9/uvn1/kOzMU0DyFpL1JFtIfkLyTZLHdJJup54CdBxOAfAs0E5jLoCnAeQBOAtAFYAbANzWQeqnAfg6gKGi+Q8Af8k8uoMa+Rn3Qg3Jkoj+Uer/cQ40+5OcS7KW5CqSS0hWkVxp5srLQqsjAp2vSZbH9BfrdwDJNSQrSPYiOYJkl5gx15FcTfJZkudGMD9Gc971/xBqND+Hp2NwepKcTLI7yXEkbyTZjeRRJC8ieTnJSST7ak8+Q/KfJL+RMvcckp9l4bNdIxmhFMADzmIBrAVQCOBtAOsBvAqgzZApB3AdgKsA7A/gIwAfA+gN4FgAo/V+IIClAO7UuO4AWmPYORnAYu2xRMhFqEEArgbQF0BPAC0AugL4D4AVAN4D8JbBPw7ALwFMiqH3KwBLJNSJABoA1KivB4BKCb4NQBGAm0RzPykoFnIRCmLiqKBtNYB3JZjrrwbQpL6LARwiD+kUsBvAS/JmAwGMBVAMYIFW6TsScACALhrnlFgmeisBrBNOI4BmAO9LIa2ypirr0t2y9gGwOUGoSwD8CcAE01ahx7ng4aLxiibdAWAygHsALJdATpAL5PKfAfA3AN8GMFHW4CzgTQBbAORL6O0ATgAwBsATmsMLPsXwshPAQ3aD5WljP0xyYsQG/BbJmQqsI0n+guRjJD/gF2GLXLnzWAtJlmr87cKaRrKa5Okky0jOIvkCyfkkF5B8h2RbQHMdyctIXk+yR+CUaoXzitoGRZnfzQCuBbBKe2SNNH6sNOcC7VMAdgm/tzTn9kF/AOOFXyYaPmhulcadif5dv88BKNHY3gkWQjmKF2XGbkVGiL9Sme95wv1p3J5ySzo/aGvTpi01HsiZyAYJ/gGAfwN4WXY/Xorwns3vx6/Ic86SEgaI9nYpyjH8ieiukim+FPAyVu0OZsrLQub//QLZpfMqIzVZiTbxLm1UD0XatBZ666kM2t1euQvAG6bteAB3iHaxFLFVDmaLNvt/5WQ2AahXm4N88eWEPwnAQrX/CMAcM8coAMMK5JFqAXxPGzg1DsgJrNXq1EijdWJoh8zFe8AfSKAZAB50mlROWKKVG6tcb1DCfG1awVat7DblnksDPOdI+jvzmw5gGYDX1dFD3m2EsfPtMokGabBOkyTBVAC3ik61THq1GCuOGDdKAo6R6Y5WPIyCITLPEOa172+SjxgvM5vk/p1I+11Seg3JRkPzUvV9U98LM9IqJDmQ5FWBJ9yUMMblj4+7l7NI7iI5Lxj8qBjJwsDBcs3bzPiHjTuH6ftrDkoarsT5XTN+bQzuSeq/DYo5TaZzkpJVC4uUjA4KCB0t4S24A+PZAd5s0z83o0AzhX8DyaEkW/W9MgL3NPVtIFnuG6tjTqunkHyI5G7DlBs4g+TzgTBOMb+OoHFggHdvijCVJJcqCI9V2xgzflmAf4HaXRLQh+bo8WdlDEmTHaZzTzWjYX7Meen+APuxGPpFJC8m+RTJq4O+c8z4V037NWqrsvj+5Yckj8vB1lebST6W9jbo+1PtA7enppB8LRCqMYJeT5nQNB0ow/5LzPhZantA3zP0XeDxfXBdrACYFQoNnotVR8r9O3d8mNxzuVx014CmyyIuB/CkwkKTAv0SBeMoKDVtfVUPOQPAZQDuB3Ch6O1N3Yw2+slppNUBCsyqMOFY758FMeY6REf/isBLRj03Row/UXhTw2N+vtHAbgXK0xUoD4/RWl7GrMPDPPP+KIB79b5I2cfXAAxOoWED/SKtts8Hpyqofw6BVkq04Z07/bnqAi74lQd4NrimrZR7moXr6RyiPeeKLDdrtZLGL9b40IGUKYR8IdREEXBFkDqSd5C8UN7qPRUpHQMTAqH+lUEoHxjHB+0j5YrLYsYdoFIZxVfYf722AtKEGmcYHqa2g+R16iJsu8aUxZKek5UhWJwTRCPK47mgu9PMc2cEzoehO48Tyj0NInR+RJ8rk12hErOHJp1OXQz5DcmfKDM5QqvR34zPN+8+hnU1bW7MkzoNt5g5Jgd8FKn9yqxC3acB0xM0f3ewYs1MhxbFtQ3K4SiFFOiYPlXxZ4rmsEKFibZPkEdlFcoPuC9BqKMDEaap3aVFZ6iG4XK+lyXAnhiR92j1hsgcPf1TDc4++4bkg+rbh7e4CwJ/thqZ4GaXqPLkA6M7kf5RJ9o1EfhdVbPbTwHUHfUPVpUJKoquN/hDzXsUvTPjEob8qEadLDcrM4gDd7p9wfSFR/oQdorpFapjuIPeMQBmA9gTgV9m3muDvkIVe5blIhQU3AamMGprEAfp1JwVJugIH9Y9PNjU6MOgb5x+30IEJAn1tooySbDC9HVXvpcVvMIaY/B7mffw6O6znXW5CvW+ahNJF3Ou6PKZ+U5Ldzw4mv2Umm2LwSkx75uCPm/qTYiAJKHc5tyYUPyAatl15nt4ijAe+him4or5tjgTlsIrY9rbIUmojZo0bZ/Um/ehCXgWvGk1J+B0M+8h8xX6/TRqYJJQzXpKEnCg+p+HrObnVz+SKYEVamvQPkzv26MGJgnVJlsuSmHQbuI0b+nBKyrpYOr3suOjxbR3M3xH1h6ThILKwGlgL8D6ZcCHMem4ky4CxneYdqu4XYiANKEaMuBYbfdKwLPgVyqpyustxDHur14H6ygPec5IpaQx3BgT7S1Y00jylBb8SrUl4PgY6ULGDt0d1yjI16oekrP3g8wvLo54sIz1CIoyceDddZrCoJAxUXfKpbpRORTAO3ED0oRaH+dhYmgUxxT/Q/CeLcuFs1uZKo25SYls3A1+O6T9jac+yBiiwJbAilUqSyu3+dVMSsP8vD5Qn6MbzFRIW6lWMZBkUnZl8pQDpoGvRiXR9c7EXQONyCoQMqxUkY4AB8jz9JV2m82dcGhuu7NOnhAD3ZXqV3W/7C7tcoI0odqU9jcoA69QBfZUVVl7mpTFQ3nMoc6CdxBRIWCOBLkSwG9zlGcvZKgCxT2FqpJOVw2v3hy/3fvvSZ4Xcf0DFW4YFPuhuyvmWNff5+mMUOHTRf+/+IP+S2FhuUrHRwSlsWpD43ckN5Mc3FlevkyhwqdSVd6lgYAbVRj1lSRXu/+uymJfyty5/jepo+DyNfc3HBdjXJ3eeV2X4rj96v7J6RyR++NH5wHA/wDv5JbhG9WMaAAAAABJRU5ErkJggg=="/>
+            </svg>
+        </div>
+        <div class="present__circle__table">
+            Оформите заказ и получите подарок!
+            <svg width="15px" height="18px" viewBox="0 0 2 2" preserveAspectRatio="none"
+                 class="table__addition_triengle-light">
+                <polygon fill="#feefee" points="0,0 2,1 0,2"/>
+            </svg>
+            <svg width="17px" height="22px" viewBox="0 0 2 2" preserveAspectRatio="none"
+                 class="table__addition_triengle-dark">
+                <polygon fill="#770a1d" points="0,0 2,1 0,2"/>
+            </svg>
+        </div>
+    </div>
+</div>
+
+<div class="loader">
+    <div class="lds-heart">
+        <div></div>
+    </div>
+</div>
+
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/jquery-3.6.3.min.js"></script>
+<script src="scripts/script.js"></script>
+
+</body>
+</html>
